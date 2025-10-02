@@ -1,2 +1,3 @@
 "# Taller MLops" 
+///
 En este caso se está trabajando con la base de datos wines de sklearn en donde se clasifican vinos en tres conjuntos diferentes, en este caso la base de datos es pequeña y está limpia y sin errores por lo cual no fue necesario hacer tratamiento de datos inicial, por estas miamas caracteristicas modelos estandar como el RandomForestRegressor suelen converger a un modelo sin errores con un procedimiento estandar por lo cual en este caso decidi comparar dos modelos RandomFOrestRegressor y Suppport Vector Machine en situaciones extremas (Entrenando los modelos con un 10% de los datos) los dos modelos utilizandolos de forma base, y posteriormente utilizando una busqueda de grilla pra optimizar el Support Vector Machine. 
